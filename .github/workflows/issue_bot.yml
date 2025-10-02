@@ -7,7 +7,7 @@ on:
 jobs:
   docs_bot:
     name: Generate automated response by docs bot
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Docs bot action
         if: ${{ github.repository_owner == 'espressif' }}
