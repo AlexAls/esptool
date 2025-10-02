@@ -9,7 +9,7 @@ on:
 jobs:
   sync_prs_to_jira:
     name: Sync PRs to Jira
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
       - name: Sync PRs to Jira project

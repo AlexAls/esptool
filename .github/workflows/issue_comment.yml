@@ -6,7 +6,7 @@ on: issue_comment
 jobs:
   sync_issue_comments_to_jira:
     name: Sync Issue Comments to Jira
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
       - name: Sync issue comments to Jira

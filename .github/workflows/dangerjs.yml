@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   pull-request-style-linter:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - name: Check out PR head
       uses: actions/checkout@v4
